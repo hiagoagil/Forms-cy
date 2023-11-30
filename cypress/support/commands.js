@@ -1,0 +1,10 @@
+Cypress.Commands.add('formulario', () =>{
+    cy.get('#firstName').type('Pedro') 
+    cy.get('#lastName').type('Gil')
+    cy.get('#email').type('Pedro@sss.com')
+    cy.get('#phone').type('63999999999')
+    cy.get('#product').select('Cypress')
+    .should('have.value', 'cypress')
+    cy.get('#open-text-area').type('Exemplo')
+    cy.get('.button').click()
+})

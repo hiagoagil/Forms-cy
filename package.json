@@ -1,0 +1,15 @@
+{
+  "name": "cypress-tutoria",
+  "version": "1.0.0",
+  "description": "Testes automatizados em aplicação HTML,CSS,JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headless": "npx cypress open"
+  },
+  "author": "Hiago Gil",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  }
+}
